@@ -1208,7 +1208,6 @@ static Bool MaliScreenInit(ScreenPtr pScreen, int argc, char **argv)
 		fPtr->exa = NULL;
 	}
 
-	miInitializeBackingStore(pScreen);
 	xf86SetBackingStore(pScreen);
 	xf86SetSilkenMouse(pScreen);
 
